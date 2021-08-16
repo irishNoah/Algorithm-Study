@@ -1,5 +1,4 @@
 # (11720번 / 숫자의 합 / B2)
-# https://github.com/irishNoah/Algorithm-Study
 
 # 방식 1
 n = int(input())
