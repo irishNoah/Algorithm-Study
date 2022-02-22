@@ -36,6 +36,7 @@
 | [정렬(선택 & 삽입 & 버블)](https://yunaaaas.tistory.com/46)| N | - | 선택, 삽입, 버블 정렬은 알고리즘 간단, 효율성은 떨어짐 |
 | [힙(기초 버전)](https://hocheon.tistory.com/70)| N | - | 힙의 시간 복잡도 : O(log n), 리스트 > 힙 변환 시간 복잡도 : O(n) |
 | [힙(심화 버전)](https://littlefoxdiary.tistory.com/3)| N | - | - |
+| [다이나믹 프로그래밍](https://doing7.tistory.com/75)| N | - | - |
 
 ## 파이썬 자료형 & 메소드 설명 블로그 포스팅
 |   제목     |    작성일   | 비고 | 
