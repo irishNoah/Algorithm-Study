@@ -53,6 +53,7 @@
 | [숫자로 구성된 문자열 정렬](https://blog.naver.com/park_ckddud/222647086826) | Y | 220214 | sort()와 sort(key = int)의 차이 |
 | [집합 자료형 set](https://blog.naver.com/park_ckddud/222650949006) | Y | 220218 | 합/차/교집합 |
 | [zip()](https://www.daleseo.com/python-zip/) | N | - | - |
+| [람다(lamda)](https://wikidocs.net/64) | N | - | - |
 
 ## 알고리즘 및 프로그래밍 문제 블로그 포스팅
 - 예전에 푼 문제들은 블로그 포스팅이 안되어 있으며 22년 02월 07일 이후에 푼 문제들로만 블로그 포스팅이 된 점을 말씀드립니다.
