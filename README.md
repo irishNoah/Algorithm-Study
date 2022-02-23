@@ -46,7 +46,7 @@
 
 |   제목    |  자체 블로그  |  작성일   | 비고 | 
 | :------: | :-----------------------------------------------:|:------:|:------:|
-| [내장 함수](https://wikidocs.net/32)| N | - |  -  |
+| [내장 함수](https://wikidocs.net/32)| N | - | abs, all, any, chr, dir, divmod, enumerate, eval,</br> filter, hex, id, input, int, isinstance, len, list,</br>map, max, min, oct, open, dor, pow, range,</br>round, sorted, str, sum, tuple, type, zip |
 | [사전(Dictionary)](https://blog.naver.com/park_ckddud/222641153654)| Y | 220207 |  -  |
 | [문자열 및 리스트 슬라이싱](https://blog.naver.com/park_ckddud/222645906588) | Y | 220212 |  -  |
 | [Counter 클래스](https://blog.naver.com/park_ckddud/222647054180) | Y | 220214 |  -  |
