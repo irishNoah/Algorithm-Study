@@ -66,6 +66,7 @@
 | [전화번호 목록](https://blog.naver.com/park_ckddud/222645660482)| programmers | 220212 | 해시 |
 | [K번째 수](https://blog.naver.com/park_ckddud/222649612140)| programmers | 220216 | 정렬 |
 | [가장 큰 수](https://blog.naver.com/park_ckddud/222649623505)| programmers | 220216 | 정렬 |
+| [더 맵게](https://blog.naver.com/park_ckddud/222656448767)| programmers | 220224 | 힙 |
 
 ## irishNoah의 바람
 > 개인적으로 푼 문제를 기록하기 위함도 있지만, 많은 분들이 제가 푼 것을 보시고 도움을 받으셨으면 좋겠습니다.
