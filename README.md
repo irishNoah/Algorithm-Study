@@ -69,6 +69,7 @@
 | [더 맵게](https://blog.naver.com/park_ckddud/222656448767)| programmers | 220224 | 힙 |
 | [최댓값과 최솟값](https://blog.naver.com/park_ckddud/222657468434)| programmers | 220225 | 연습문제 |
 | [피보나치 수](https://blog.naver.com/park_ckddud/222657475479)| programmers | 220225 | 연습문제 |
+| [위장](https://blog.naver.com/park_ckddud/222666507590)| programmers | 220307 | 연습문제 |
 
 ## irishNoah의 바람
 > 개인적으로 푼 문제를 기록하기 위함도 있지만, 많은 분들이 제가 푼 것을 보시고 도움을 받으셨으면 좋겠습니다.
