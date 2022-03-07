@@ -1,14 +1,3 @@
-# 프로그래머스 LV2 - 위장(초기 풀이)
-# https://programmers.co.kr/learn/courses/30/lessons/42578
-
-# 정확성 테스트의 케이스 28개 중 8개 성공
-# 효율성 테스트는 없었음
-# 총점 28.6점
-
-# def solution(clothes):
-#     answer = 0
-#     return answer
-
 def solution(clothes):
     answer = 0 # 리턴값에 해당되는 변수 answer
 
@@ -39,5 +28,5 @@ def solution(clothes):
 
     return answer
 
-clothes = [["crowmask", "face"], ["bluesunglasses", "face"], ["smoky_makeup", "face"]]
+clothes = [["yellowhat", "headgear"], ["bluesunglasses", "eyewear"], ["green_turban", "headgear"]]	
 print(solution(clothes))
