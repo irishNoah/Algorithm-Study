@@ -1,0 +1,38 @@
+# 프로그래머스 LV2 - 구명보트
+# https://programmers.co.kr/learn/courses/30/lessons/42885
+
+# 정확성 테스트의 케이스 15개 중 15개 성공
+# 효율성 테스트는 없었음
+# 총점 100.0점
+
+# def solution(people, limit):
+#     answer = 0
+#     return answer
+
+def solution(people, limit):
+    answer = 0 # 리턴할 값 answer
+
+    people.sort() # people 리스트 오름차순 정렬
+
+    for i in range(0, len(people)):
+
+        if len(people) == 1:
+            answer = answer+1
+            break
+
+        elif people[0] + people[1] <= limit :
+            people.pop(0)
+            people.pop(0)
+            answer = answer+1
+            
+
+        else :
+            people.pop(0)
+            answer = answer+1
+
+
+    return answer
+
+people = [70, 50, 80, 50]	
+limit = 100
+print(solution(people, limit)) # 출력 결과 예 : 3
