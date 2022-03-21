@@ -58,18 +58,20 @@
 ## 알고리즘 및 프로그래밍 문제 블로그 포스팅
 - 예전에 푼 문제들은 블로그 포스팅이 안되어 있으며 22년 02월 07일 이후에 푼 문제들로만 블로그 포스팅이 된 점을 말씀드립니다.
 - 포스팅 날짜는 실제 문제를 푼 날짜보다 며칠 늦을 수 있습니다.
+- 220307일까지는 네이버로 블로그를 제작하였으며, 이후에는 Velog를 통해 제작했음을 알려드립니다.
 
-|   제목     |    문제 출처   | 포스팅 날짜 | 알고리즘 종류 |
-| :------: |:-----------------------------------------------:|:------:|:------:|
-| [오픈채팅방](https://blog.naver.com/park_ckddud/222641221456)| programmers | 220207 | 분류 없음 |
-| [완주하지 못한 선수](https://blog.naver.com/park_ckddud/222641632113)| programmers | 220208 | 해시 |
-| [전화번호 목록](https://blog.naver.com/park_ckddud/222645660482)| programmers | 220212 | 해시 |
-| [K번째 수](https://blog.naver.com/park_ckddud/222649612140)| programmers | 220216 | 정렬 |
-| [가장 큰 수](https://blog.naver.com/park_ckddud/222649623505)| programmers | 220216 | 정렬 |
-| [더 맵게](https://blog.naver.com/park_ckddud/222656448767)| programmers | 220224 | 힙 |
-| [최댓값과 최솟값](https://blog.naver.com/park_ckddud/222657468434)| programmers | 220225 | 연습문제 |
-| [피보나치 수](https://blog.naver.com/park_ckddud/222657475479)| programmers | 220225 | 연습문제 |
-| [위장](https://blog.naver.com/park_ckddud/222666507590)| programmers | 220307 | 연습문제 |
+|   제목     |    문제 출처   | 포스팅 날짜 | 알고리즘 종류 | 사용 언어 |
+| :------: |:-----------------------------------------------:|:------:|:------:|:------:|
+| [오픈채팅방](https://blog.naver.com/park_ckddud/222641221456)| programmers | 220207 | 분류 없음 | Python |
+| [완주하지 못한 선수](https://blog.naver.com/park_ckddud/222641632113)| programmers | 220208 | 해시 | Python |
+| [전화번호 목록](https://blog.naver.com/park_ckddud/222645660482)| programmers | 220212 | 해시 | Python |
+| [K번째 수](https://blog.naver.com/park_ckddud/222649612140)| programmers | 220216 | 정렬 | Python |
+| [가장 큰 수](https://blog.naver.com/park_ckddud/222649623505)| programmers | 220216 | 정렬 | Python |
+| [더 맵게](https://blog.naver.com/park_ckddud/222656448767)| programmers | 220224 | 힙 | Python |
+| [최댓값과 최솟값](https://blog.naver.com/park_ckddud/222657468434)| programmers | 220225 | 연습문제 | Python |
+| [피보나치 수](https://blog.naver.com/park_ckddud/222657475479)| programmers | 220225 | 연습문제 | Python |
+| [위장](https://blog.naver.com/park_ckddud/222666507590)| programmers | 220307 | 연습문제 | Python |
+| [내적](https://velog.io/@irish/Programmers-%EB%82%B4%EC%A0%81Python)| programmers | 220319 | 연습문제 및 기타 | Python |
 
 ## irishNoah의 바람
 > 개인적으로 푼 문제를 기록하기 위함도 있지만, 많은 분들이 제가 푼 것을 보시고 도움을 받으셨으면 좋겠습니다.
