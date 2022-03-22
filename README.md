@@ -79,6 +79,9 @@
 | [이상한 문자 만들기](https://velog.io/@irish/Programmers-%EC%9D%B4%EC%83%81%ED%95%9C-%EB%AC%B8%EC%9E%90-%EB%A7%8C%EB%93%A4%EA%B8%B0Python)| programmers | 220321 | 연습문제 | Python |
 | [정수 내림차순으로 배치하기](https://velog.io/@irish/Programmers-%EC%9D%B4%EC%83%81%ED%95%9C-%EB%AC%B8%EC%9E%90-%EB%A7%8C%EB%93%A4%EA%B8%B0Python-c5bezy8g)| programmers | 220321 | 연습문제 | Python |
 | [짝수와 홀수](https://velog.io/@irish/Programmers-%EC%A7%9D%EC%88%98%EC%99%80-%ED%99%80%EC%88%98Python)| programmers | 220322 | 연습문제 | Python |
+| [나머지가 1이 되는 수 찾기](https://velog.io/@irish/Programmers-%EB%82%98%EB%A8%B8%EC%A7%80%EA%B0%80-1%EC%9D%B4-%EB%90%98%EB%8A%94-%EC%88%98-%EC%B0%BE%EA%B8%B0Python)| programmers | 220322 | 연습문제 | Python |
+| [부족한 금액 계산하기](https://velog.io/@irish/Programmers-%EB%B6%80%EC%A1%B1%ED%95%9C-%EA%B8%88%EC%95%A1-%EA%B3%84%EC%82%B0%ED%95%98%EA%B8%B0Python)| programmers | 220322 | 연습문제 | Python |
+| [소수 만들기](https://velog.io/@irish/Programmers-%EC%86%8C%EC%88%98-%EB%A7%8C%EB%93%A4%EA%B8%B0Python)| programmers | 220322 | 연습문제 | Python |
 
 ## irishNoah의 바람
 > 개인적으로 푼 문제를 기록하기 위함도 있지만, 많은 분들이 제가 푼 것을 보시고 도움을 받으셨으면 좋겠습니다.
