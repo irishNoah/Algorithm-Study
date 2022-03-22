@@ -82,6 +82,8 @@
 | [나머지가 1이 되는 수 찾기](https://velog.io/@irish/Programmers-%EB%82%98%EB%A8%B8%EC%A7%80%EA%B0%80-1%EC%9D%B4-%EB%90%98%EB%8A%94-%EC%88%98-%EC%B0%BE%EA%B8%B0Python)| programmers | 220322 | 연습문제 | Python |
 | [부족한 금액 계산하기](https://velog.io/@irish/Programmers-%EB%B6%80%EC%A1%B1%ED%95%9C-%EA%B8%88%EC%95%A1-%EA%B3%84%EC%82%B0%ED%95%98%EA%B8%B0Python)| programmers | 220322 | 연습문제 | Python |
 | [소수 만들기](https://velog.io/@irish/Programmers-%EC%86%8C%EC%88%98-%EB%A7%8C%EB%93%A4%EA%B8%B0Python)| programmers | 220322 | 연습문제 | Python |
+| [[1차] 비밀지도](https://velog.io/@irish/Programmers-1%EC%B0%A8-%EB%B9%84%EB%B0%80%EC%A7%80%EB%8F%84Python)| programmers | 220322 | 연습문제 | Python |
+| [숫자 문자열과 영단어](https://velog.io/@irish/Programmers-%EC%88%AB%EC%9E%90-%EB%AC%B8%EC%9E%90%EC%97%B4%EA%B3%BC-%EC%98%81%EB%8B%A8%EC%96%B4Python)| programmers | 220323 | 연습문제 | Python |
 
 ## irishNoah의 바람
 > 개인적으로 푼 문제를 기록하기 위함도 있지만, 많은 분들이 제가 푼 것을 보시고 도움을 받으셨으면 좋겠습니다.
