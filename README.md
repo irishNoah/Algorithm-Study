@@ -88,6 +88,9 @@
 | [시저 암호](https://velog.io/@irish/Programmers-%EC%8B%9C%EC%A0%80-%EC%95%94%ED%98%B8Python)| programmers | 220323 | 연습문제 | Python |
 | [직사각형 별찍기](https://velog.io/@irish/Programmers-%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95-%EB%B3%84%EC%B0%8D%EA%B8%B0Python)| programmers | 220323 | 연습문제 | Python |
 | [최대공약수와 최대공배수](https://velog.io/@irish/Programmers-%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80-%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98Python)| programmers | 220323 | 연습문제 | Python |
+| [가운데 글자 가져오기](https://velog.io/@irish/Programmers-%EA%B0%80%EC%9A%B4%EB%8D%B0-%EA%B8%80%EC%9E%90-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0Python)| programmers | 220323 | 연습문제 | Python |
+| [3진법 뒤집기](https://velog.io/@irish/Programmers-3%EC%A7%84%EB%B2%95-%EB%92%A4%EC%A7%91%EA%B8%B0Java)| programmers | 220324 | 연습문제 | Java |
+| [모의고사](https://velog.io/@irish/Programmers-%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%ACJava)| programmers | 220324 | 완전탐색 | Java |
 
 ## irishNoah의 바람
 > 개인적으로 푼 문제를 기록하기 위함도 있지만, 많은 분들이 제가 푼 것을 보시고 도움을 받으셨으면 좋겠습니다.
