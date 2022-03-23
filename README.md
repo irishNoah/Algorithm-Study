@@ -84,6 +84,10 @@
 | [소수 만들기](https://velog.io/@irish/Programmers-%EC%86%8C%EC%88%98-%EB%A7%8C%EB%93%A4%EA%B8%B0Python)| programmers | 220322 | 연습문제 | Python |
 | [[1차] 비밀지도](https://velog.io/@irish/Programmers-1%EC%B0%A8-%EB%B9%84%EB%B0%80%EC%A7%80%EB%8F%84Python)| programmers | 220322 | 연습문제 | Python |
 | [숫자 문자열과 영단어](https://velog.io/@irish/Programmers-%EC%88%AB%EC%9E%90-%EB%AC%B8%EC%9E%90%EC%97%B4%EA%B3%BC-%EC%98%81%EB%8B%A8%EC%96%B4Python)| programmers | 220323 | 연습문제 | Python |
+| [두 정수 사이의 합](https://velog.io/@irish/Programmers-%EB%91%90-%EC%A0%95%EC%88%98-%EC%82%AC%EC%9D%B4%EC%9D%98-%ED%95%A9Python)| programmers | 220323 | 연습문제 | Python |
+| [시저 암호](https://velog.io/@irish/Programmers-%EC%8B%9C%EC%A0%80-%EC%95%94%ED%98%B8Python)| programmers | 220323 | 연습문제 | Python |
+| [직사각형 별찍기](https://velog.io/@irish/Programmers-%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95-%EB%B3%84%EC%B0%8D%EA%B8%B0Python)| programmers | 220323 | 연습문제 | Python |
+| [최대공약수와 최대공배수](https://velog.io/@irish/Programmers-%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80-%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98Python)| programmers | 220323 | 연습문제 | Python |
 
 ## irishNoah의 바람
 > 개인적으로 푼 문제를 기록하기 위함도 있지만, 많은 분들이 제가 푼 것을 보시고 도움을 받으셨으면 좋겠습니다.
