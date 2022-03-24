@@ -91,6 +91,10 @@
 | [가운데 글자 가져오기](https://velog.io/@irish/Programmers-%EA%B0%80%EC%9A%B4%EB%8D%B0-%EA%B8%80%EC%9E%90-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0Python)| programmers | 220323 | 연습문제 | Python |
 | [3진법 뒤집기](https://velog.io/@irish/Programmers-3%EC%A7%84%EB%B2%95-%EB%92%A4%EC%A7%91%EA%B8%B0Java)| programmers | 220324 | 연습문제 | Java |
 | [모의고사](https://velog.io/@irish/Programmers-%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%ACJava)| programmers | 220324 | 완전탐색 | Java |
+| [N개의 최소공배수](https://velog.io/@irish/Programmers-N%EA%B0%9C%EC%9D%98-%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98Python)| programmers | 220324 | 연습문제 | Python |
+| [행렬의 곱셈](https://velog.io/@irish/Programmers-%ED%96%89%EB%A0%AC%EC%9D%98-%EA%B3%B1%EC%85%88Python)| programmers | 220324 | 연습문제 | Python |
+| [소수 찾기](https://velog.io/@irish/Programmers-%EC%86%8C%EC%88%98-%EC%B0%BE%EA%B8%B0Python)| programmers | 220324 | 완전탐색 | Python |
+| [최솟값 만들기](https://velog.io/@irish/Programmers-%EC%B5%9C%EC%86%9F%EA%B0%92-%EB%A7%8C%EB%93%A4%EA%B8%B0Python)| programmers | 220324 | 연습문제 | Python |
 
 ## irishNoah의 바람
 > 개인적으로 푼 문제를 기록하기 위함도 있지만, 많은 분들이 제가 푼 것을 보시고 도움을 받으셨으면 좋겠습니다.
