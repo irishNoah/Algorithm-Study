@@ -95,6 +95,8 @@
 | [행렬의 곱셈](https://velog.io/@irish/Programmers-%ED%96%89%EB%A0%AC%EC%9D%98-%EA%B3%B1%EC%85%88Python)| programmers | 220324 | 연습문제 | Python |
 | [소수 찾기](https://velog.io/@irish/Programmers-%EC%86%8C%EC%88%98-%EC%B0%BE%EA%B8%B0Python)| programmers | 220324 | 완전탐색 | Python |
 | [최솟값 만들기](https://velog.io/@irish/Programmers-%EC%B5%9C%EC%86%9F%EA%B0%92-%EB%A7%8C%EB%93%A4%EA%B8%B0Python)| programmers | 220324 | 연습문제 | Python |
+| [JadenCase 문자열 만들기](https://velog.io/@irish/Programmers-JadenCase-%EB%AC%B8%EC%9E%90%EC%97%B4-%EB%A7%8C%EB%93%A4%EA%B8%B0-Python-1izrldva)| programmers | 220325 | 연습문제 | Python |
+| [다음 큰 숫자](https://velog.io/@irish/Programmers-%EB%8B%A4%EC%9D%8C-%ED%81%B0-%EC%88%AB%EC%9E%90Python)| programmers | 220325 | 연습문제 | Python |
 
 ## irishNoah의 바람
 > 개인적으로 푼 문제를 기록하기 위함도 있지만, 많은 분들이 제가 푼 것을 보시고 도움을 받으셨으면 좋겠습니다.
