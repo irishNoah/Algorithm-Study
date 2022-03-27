@@ -54,6 +54,10 @@
 | [집합 자료형 set](https://blog.naver.com/park_ckddud/222650949006) | Y | 220218 | 합/차/교집합 |
 | [zip()](https://www.daleseo.com/python-zip/) | N | - | - |
 | [람다(lamda)](https://wikidocs.net/64) | N | - | - |
+| [2진수 변환 다양한 풀이](https://minnit-develop.tistory.com/17) | N | - | - |
+| [문자열에서 특정 문자를 제거하는 5가지 다른 방법](https://ichi.pro/ko/paisseon-eseo-munjayeol-eseo-teugjeong-munjaleul-jegeohaneun-5gaji-daleun-bangbeob-194478292048569) | N | - | - |
+| [약수 구하기(시간복잡도 줄여보기)](https://minnit-develop.tistory.com/16) | N | - | - |
+| [이중 for문 빠져나가기](https://redmuffler.tistory.com/446) | N | - | - |
 
 ## 알고리즘 및 프로그래밍 문제 블로그 포스팅
 - 예전에 푼 문제들은 블로그 포스팅이 안되어 있으며 22년 02월 07일 이후에 푼 문제들로만 블로그 포스팅이 된 점을 말씀드립니다.
