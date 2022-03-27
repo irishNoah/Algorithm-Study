@@ -54,6 +54,10 @@
 | [집합 자료형 set](https://blog.naver.com/park_ckddud/222650949006) | Y | 220218 | 합/차/교집합 |
 | [zip()](https://www.daleseo.com/python-zip/) | N | - | - |
 | [람다(lamda)](https://wikidocs.net/64) | N | - | - |
+| [2진수 변환 다양한 풀이](https://minnit-develop.tistory.com/17) | N | - | - |
+| [문자열에서 특정 문자를 제거하는 5가지 다른 방법](https://ichi.pro/ko/paisseon-eseo-munjayeol-eseo-teugjeong-munjaleul-jegeohaneun-5gaji-daleun-bangbeob-194478292048569) | N | - | - |
+| [약수 구하기(시간복잡도 줄여보기)](https://minnit-develop.tistory.com/16) | N | - | - |
+| [이중 for문 빠져나가기](https://redmuffler.tistory.com/446) | N | - | - |
 
 ## 알고리즘 및 프로그래밍 문제 블로그 포스팅
 - 예전에 푼 문제들은 블로그 포스팅이 안되어 있으며 22년 02월 07일 이후에 푼 문제들로만 블로그 포스팅이 된 점을 말씀드립니다.
@@ -95,6 +99,8 @@
 | [행렬의 곱셈](https://velog.io/@irish/Programmers-%ED%96%89%EB%A0%AC%EC%9D%98-%EA%B3%B1%EC%85%88Python)| programmers | 220324 | 연습문제 | Python |
 | [소수 찾기](https://velog.io/@irish/Programmers-%EC%86%8C%EC%88%98-%EC%B0%BE%EA%B8%B0Python)| programmers | 220324 | 완전탐색 | Python |
 | [최솟값 만들기](https://velog.io/@irish/Programmers-%EC%B5%9C%EC%86%9F%EA%B0%92-%EB%A7%8C%EB%93%A4%EA%B8%B0Python)| programmers | 220324 | 연습문제 | Python |
+| [JadenCase 문자열 만들기](https://velog.io/@irish/Programmers-JadenCase-%EB%AC%B8%EC%9E%90%EC%97%B4-%EB%A7%8C%EB%93%A4%EA%B8%B0-Python-1izrldva)| programmers | 220325 | 연습문제 | Python |
+| [다음 큰 숫자](https://velog.io/@irish/Programmers-%EB%8B%A4%EC%9D%8C-%ED%81%B0-%EC%88%AB%EC%9E%90Python)| programmers | 220325 | 연습문제 | Python |
 
 ## irishNoah의 바람
 > 개인적으로 푼 문제를 기록하기 위함도 있지만, 많은 분들이 제가 푼 것을 보시고 도움을 받으셨으면 좋겠습니다.
