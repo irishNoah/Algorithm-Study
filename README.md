@@ -59,7 +59,15 @@
 | [약수 구하기(시간복잡도 줄여보기)](https://minnit-develop.tistory.com/16) | N | - | - |
 | [이중 for문 빠져나가기](https://redmuffler.tistory.com/446) | N | - | - |
 
-## 알고리즘 및 프로그래밍 문제 블로그 포스팅
+## 백준 온라인 저지(BOJ) 문제 블로그 포시틍
+- 예전에 푼 문제들은 블로그 포스팅이 안되어 있으며 22년 03월 31일 이후에 푼 문제들로만 블로그 포스팅이 된 점을 말씀드립니다.
+- 포스팅 날짜는 실제 문제를 푼 날짜보다 며칠 늦을 수 있습니다.
+
+|   문제 번호    |   제목    |    문제 출처   | 문제 난이도 | 포스팅 날짜 | 사용 언어 |
+| :------: |:----------:|:------:|:------:|:------:|:------:|
+| [4153](https://velog.io/@irish/BOJ-%EC%A7%81%EA%B0%81%EC%82%BC%EA%B0%81%ED%98%95Python) | 직각삼각형 | BOJ | B3 | 220413 | Python |
+
+## Programmers 문제 블로그 포스팅
 - 예전에 푼 문제들은 블로그 포스팅이 안되어 있으며 22년 02월 07일 이후에 푼 문제들로만 블로그 포스팅이 된 점을 말씀드립니다.
 - 포스팅 날짜는 실제 문제를 푼 날짜보다 며칠 늦을 수 있습니다.
 - 220307일까지는 네이버로 블로그를 제작하였으며, 이후에는 Velog를 통해 제작했음을 알려드립니다.
@@ -101,6 +109,8 @@
 | [최솟값 만들기](https://velog.io/@irish/Programmers-%EC%B5%9C%EC%86%9F%EA%B0%92-%EB%A7%8C%EB%93%A4%EA%B8%B0Python)| programmers | 220324 | 연습문제 | Python |
 | [JadenCase 문자열 만들기](https://velog.io/@irish/Programmers-JadenCase-%EB%AC%B8%EC%9E%90%EC%97%B4-%EB%A7%8C%EB%93%A4%EA%B8%B0-Python-1izrldva)| programmers | 220325 | 연습문제 | Python |
 | [다음 큰 숫자](https://velog.io/@irish/Programmers-%EB%8B%A4%EC%9D%8C-%ED%81%B0-%EC%88%AB%EC%9E%90Python)| programmers | 220325 | 연습문제 | Python |
+| [이진 변환 반복하기](https://velog.io/@irish/Programmers-%EC%9D%B4%EC%A7%84-%EB%B3%80%ED%99%98-%EB%B0%98%EB%B3%B5%ED%95%98%EA%B8%B0Python)| programmers | 220413 | 연습문제 | Python |
+| [멀쩡한 사각형](https://velog.io/@irish/Programmers-%EB%A9%80%EC%A9%A1%ED%95%9C-%EC%82%AC%EA%B0%81%ED%98%95Python)| programmers | 220413 | 연습문제 | Python |
 
 ## irishNoah의 바람
 > 개인적으로 푼 문제를 기록하기 위함도 있지만, 많은 분들이 제가 푼 것을 보시고 도움을 받으셨으면 좋겠습니다.
