@@ -31,7 +31,7 @@
 
 |   제목     |    자체 블로그   |    작성일     |     비고     |
 |:----------:|:----------:|:------:|:------:|
-| [그리디 or 탐욕 (개념](https://hanamon.kr/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%83%90%EC%9A%95%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-greedy-algorithm/)| N | - | - |
+| [그리디 or 탐욕 (개념)](https://hanamon.kr/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%83%90%EC%9A%95%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-greedy-algorithm/)| N | - | - |
 | [해시(기초 & 메서드)](https://yunaaaas.tistory.com/46)| N | - | - |
 | [해시(상세 기술)](https://yunaaaas.tistory.com/46)| N | - | - |
 | [정렬(선택 & 삽입 & 버블)](https://yunaaaas.tistory.com/46)| N | - | - 선택, 삽입, 버블 정렬은 알고리즘 간단</br>- 효율성은 떨어짐 |
