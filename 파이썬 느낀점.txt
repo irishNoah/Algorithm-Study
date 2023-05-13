@@ -1,0 +1,11 @@
+### 파이썬 느낀점
+
+*** 리스트 내부에 있는 요소들을 차례대로 더하는 case에서 좀 더 간략히 코딩하는 법
+>>> 슬라이싱 활용하기!!!!!
+
+for i in range(0, n): # 내 풀이
+    sumTime += time[i]
+    result += sumTime
+
+for x in range(1, n+1): # 다른 분 풀이
+    answer += sum(time[0:x])
