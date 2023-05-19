@@ -1,0 +1,72 @@
+@ 파이썬 자료형 및 연산자의 시간 복잡도(Big-O) 총 정리
+
+##### 자료형에 따른 시간 복잡도 비교
+ 메서드들의 시간 복잡도가 다르기 때문에 필요에 따라서 어떤 자료형을 사용하는 것이 좋은지 생각하면 
+더욱 좋은 알고리즘으로 파이썬 코드를 작성하실 수 있을 것입니다.
+
+List 자료형은 삽입, 제거, 탐색, 포함 여부 확인 모두 O(n)에 해당하는 시간 복잡도를 가지고 있습니다.
+Set과 Dictionary는 삽입, 제거, 탐색, 포함여부확인 연산에 O(1)의 시간 복잡도를 가지고 있습니다.
+
+탐색과 확인이 주로 필요한 연산이라면 Set이나 Dictionary를 사용하는 것이 좋고 
+순서와 index에 따른 접근이 필요하다면 List 자료형을 사용하는 것이 좋을 것입니다.
+
+##### 리스트 자료형과 메서드의 시간 복잡도
+ 
+ 	Operation	Example		Class		Notes
+1	Index		l[i]		O(1)		인덱스로 값 찾기
+2	Store		l[i] = 0		O(1)		인덱스로 데이터 저장
+3	Length		len(l)		O(1)		리스트 길이
+4	Append		l.append(5)	O(1)		리스드 뒤에 데이터 저장
+5	Pop		l.pop()		O(1)		가장 뒤의 데이터 pop
+6	Clear		l.clear()		O(1)		l = []
+7	Slice		l[a:b]		O(b-a)		슬라이싱되는 요소들 수 만큼 비례
+8	Extend		l.extend(...)	O(len(...))		확장되는 길이만큼
+9	Construction	list(...)		O(len(...))		리스트 길이만큼
+10	check ==, !=	l1 == l2		O(N)		전체 리스트가 동일한지 확인
+11	Insert		l[a:b] = ...	O(N)		데이터 삽입
+12	Delete		del l[i]		O(N)		데이터 삭제
+13	Containment	x in/not in l	O(N)		포함 여부 확인
+14	Copy		l.copy()		O(N)		복제
+15	Remove		l.remove(...)	O(N)		제거
+16	Pop		l.pop(i)		O(N)		제거된 값 이후를 전부 한칸씩 당겨줘야함
+17	Extreme value	min(l)/max(l)	O(N)		전체 데이터를 확인해야함
+18	Reverse		l.reverse()	O(N)		뒤집기
+19	Iteration		for v in l:		O(N)		전체 데이터 확인하므로
+20	Sort		l.sort()		O(N Log N)	파이썬 기본 정렬 알고리즘
+21	Multiply		k*l		O(k N)		리스트의 곱은 리스트 개수 늘어남
+
+
+##### 집합(set) 자료형과 메소드의 시간 복잡도
+
+
+ 	Operation	Example		Class		Notes
+1	Add		s.add(5)		O(1)		집합 요소 추가
+2	Containment	x in/not in s	O(1)		포함 여부 확인
+3	Remove		s.remove(..)	O(1)		요소 제거
+4	Discard		s.discard(..)	O(1)		특정 요소 제거
+5	Pop		s.pop()		O(1)		랜덤하게 하나 pop
+6	Clear		s.clear()		O(1)		similar to s = set()
+7	Construction	set(...)		O(len(...))		길이만큼
+8	check ==, !=	s != t		O(len(s))		전체 요소 동일 여부 확인
+9	<=/<		s <= t		O(len(s))		부분집합 여부
+10	>=/>		s >= t		O(len(t))		부분집합 여부
+11	Union		s, t		O(len(s)+len(t))	합집합
+12	Intersection	s & t		O(len(s)+len(t))	교집합
+13	Difference	s - t		O(len(s)+len(t))	차집합
+14	Symmetric Diff	s ^ t		O(len(s)+len(t))	여집합
+15	Iteration		for v in s:	O(N)		전체 요소 순회
+16	Copy		s.copy()		O(N)		복제
+
+##### 딕셔너리(Dictionary) 자료형과 메소드의 시간 복잡도
+
+ 	Operation	Example		Class		Notes
+1	Store		d[k] = v		O(1)		데이터 저장
+2	Length		len(d)		O(1)		길이 출력
+3	Delete		del d[k]		O(1)		요소 제거
+4	get/setdefault	d.get(k)		O(1)		key에 따른 value 확인
+5	Pop		d.pop(k)		O(1)		pop
+6	Pop item		d.popitem()	O(1)		랜덤하게 선택해서 pop
+7	Clear		d.clear()		O(1)		similar to s = {} or = dict()
+8	View		d.keys()		O(1)		same for d.values() / 키값 전체 확인
+9	Construction	dict(...)		O(len(...))		(key, value) 튜플 개수만큼
+10	Iteration		for k in d:	O(N)		전체 딕셔너리 순회
