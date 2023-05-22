@@ -1,0 +1,20 @@
+// 코드업-1036-영문자to10진수
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		char s = sc.next().charAt(0);
+		
+		// 파이썬에서는 ord() 함수가 있지만, 자바에는 그런 것이 없다.
+		// 그냥 문자 앞에 (int)를 붙여주면 된다.
+		System.out.println((int)s);
+		
+		sc.close();
+		
+	}
+
+}

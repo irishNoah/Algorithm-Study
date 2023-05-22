@@ -1,0 +1,16 @@
+// 코드업-1018-시간입력받아그대로출력하기
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		// 리스트 time을 생성해서 입력값을 추가해주는 과정
+		// 리스트를 만드는 방식이 파이썬과 다르다
+		String time[] = scanner.next().split(":"); 
+		System.out.println(time[0]+":"+time[1]);
+	}
+
+}

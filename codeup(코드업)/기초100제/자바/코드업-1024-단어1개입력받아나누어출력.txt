@@ -1,0 +1,23 @@
+// 코드업-1024-단어1개입력받아나누어출력
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		String word = sc.next();
+		
+		// 문자열에 대해 각 문자를 분리하기 위해서는 문자 배열화를 시키는 게 좋다.
+		// toCharArray() 메소드를 활용해서 이를 실행
+		char cnv[] = word.toCharArray();
+		
+		int i;
+		for (i = 0; i < cnv.length; i++) {
+			System.out.println("'" + cnv[i] + "'");
+		}
+		
+	}
+
+}

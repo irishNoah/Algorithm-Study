@@ -1,0 +1,128 @@
+@ 자바-복습-메서드-및-유용팁
+
+%%%%%%%%%% 코드업
+
+#####1 > 자바 Scanner를 통해 char형 입력받을 경우
+자바에서 Scanner를 활용해서 char형을 입력받을 수 있으나 Scanner의 함수인 next 계열 함수에서는
+char형으로 입력을 받아주는 함수가 없다. 
+
+>>> 따라서 scanner.next().charAt(0); 를 활용해서 입력을 받아야 한다.
+
+#####2 > float의 기본 셋팅
+기본적으로 float가 할당된 변수의 소수점 자리수가 2자리가 넘어가지 않는 이상
+float을 출력하면 기본적으로 소수점 둘째 자리까지 출력하게 된다.
+
+따라서, 원하는 자리수까지 출력하고 싶을 때는 Sring.format을 이용한다.
+
+>>> System.out.println(String.format("%.6f", c)); 
+
+#####3 > 자바에서의 리스트
+리스트를 만드는 방식이 파이썬과 다르다
+
+>>> String time[] = scanner.next().split(":"); 
+>>> System.out.println(time[0]+":"+time[1]);
+
+#####4 > 숫자 형식의 문자열을 정수형으로 변환
+
+>>> int year = Integer.parseInt(문자열 변수);
+
+#####5 > %d 자릿수 채우기
+연월일 입력을 1998 8 3 으로 입력을 받았는데,
+정수로 출력을 1998 08 03 과 같이 출력을 하라고 한다면?????
+
+- 해결법 > %02d를 사용하면 2칸을 사용해 출력하는데, 입력받은 수가 한 자리 수인 경우 앞에 0을 붙여 출력한다.
+
+>>>>> System.out.printf("%04d.%02d.%02d", year, month, day);
+
+#####6 > next()와 nextLine()의 차이
+입력 문자열이 "Programming is very fun!!" 라고 했을 때
+
+이것을 sc.next()로 입력을 받고 출력할 경우 >>> Programming만 출력됨
+반면, sc.nextLine()로 입력을 받고 출력할 경우 >>> Programming is very fun!! 출력
+
+#####7 > 문자열을 배열화 : toCharArray()
+아래와 같이 하면 입력받은 문자열에 대해 바로 배열화가 가능하다.
+
+String word = sc.next();
+char cnv[] = word.toCharArray();
+
+#####8 > String(문자열)에서 n진수로 변환
+
+2진수 : Integer.valueOf(String s, 2);, return : int
+8진수 : Integer.valueOf(String s, 8);, return : int
+16진수 : Integer.valueOf(String s, 16);, return : int
+
+#####9 > 10진수에서 n진수로 변환
+
+2진수 : Integer.toBinaryString(int i), return : String
+8진수 : Integer.toOctalString(int i), return : String
+16진수 : Integer.toHexString(int i), return : String
+
+#####10 > n진수에서 10진수로 변환
+
+2진수 : Integer.parseInt(String s, 2);, return : int
+8진수 : Integer.parseInt(String s, 8);, return : int
+16진수 : Integer.parseInt(String s, 16);, return : int	
+
+#####11 자바에서의 ord() - 영문자 to 10진수 변환
+
+파이썬에서는 ord() 함수가 있지만, 자바에는 그런 것이 없다.
+그냥 문자 또는 문자 변수 앞에 (int)를 붙여주면 된다.
+
+>>> System.out.println((int)s);
+
+#####12 자바에서의 몫과 나머지 구하기
+
+일반적으로 몫은 그냥 int a = 26/10;
+나머지는 그냥 int b = 26%10; 의 형식대로 구했다.
+		
+하지만, -26%10의 결과는 -6이라는 문제가 발생한다.
+수학적으로 -26%10의 결과는 4가 나와야 한다.
+나머지는 수학적으로 0 이상인 수가 답이기 때문이다.
+		
+따라서, 이러한 문제를 해결하기 위해서는 Math 클래스인
+import java.lang.Math; 를 선언하고
+		
+Math.floorDiv(a, b) >>> 몫
+Math.floorMod(a, b) >>> 나머지
+로 구하는 게 안전하겠다.
+
+#####13 정수와 정수로 나눈 값을 정수가 아닌 실수로 출력하기
+
+a, b가 모두 정수일 경우 수학적으로 10 / 2는 5이지만, 10 / 4 = 2.5이다.
+하지만, 자바에서는 10 / 4는 2로 출력된다. 
+정수 / 정수는 몫을 구하는 것이기 때문이다.
+
+수학적인 답과 같이 출력을 하기 위해서는
+(double)a/b 와 같이 풀어야 한다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

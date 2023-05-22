@@ -1,0 +1,19 @@
+// 코드업-1012-실수1개입력출력
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		float c = scanner.nextFloat();
+		
+		/* 
+		1. float을 출력하면 기본적으로 소수점 둘째 자리까지 출력하게 된다
+		2. 소수점 n자리까지 출력까지 출력하고 싶을 때 Sring.format을 이용한다
+		 * */
+		System.out.println(String.format("%.6f", c)); 
+	}
+
+}

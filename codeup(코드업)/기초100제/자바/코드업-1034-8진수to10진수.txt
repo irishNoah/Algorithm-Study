@@ -1,0 +1,42 @@
+// 코드업-1034-8진수to10진수
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		String s = sc.next();
+		
+		
+		/*
+		# String에서 n진수로 변환
+
+		2진수 : Integer.valueOf(String s, 2);, return : int
+		8진수 : Integer.valueOf(String s, 8);, return : int
+		16진수 : Integer.valueOf(String s, 16);, return : int
+
+		# 10진수에서 n진수로 변환
+		
+		2진수 : Integer.toBinaryString(int i), return : String
+		8진수 : Integer.toOctalString(int i), return : String
+		16진수 : Integer.toHexString(int i), return : String
+				  
+		# n진수에서 10진수로 변환
+		
+		2진수 : Integer.parseInt(String s, 2);, return : int
+		8진수 : Integer.parseInt(String s, 8);, return : int
+		16진수 : Integer.parseInt(String s, 16);, return : int		
+		 
+		 */
+		
+		int n = Integer.parseInt(s, 8);
+		
+		System.out.println(n);
+		
+		sc.close();
+		
+	}
+
+}

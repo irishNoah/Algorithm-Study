@@ -1,0 +1,9 @@
+// 코드업-1007-이스케이프2
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("\"C:\\Download\\hello.cpp\""); // 자바 이스케이프
+		
+	}
+
+}

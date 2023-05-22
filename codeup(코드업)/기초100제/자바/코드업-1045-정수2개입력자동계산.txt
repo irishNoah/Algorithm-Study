@@ -1,0 +1,43 @@
+// 코드업-1045-정수2개입력자동계산
+
+import java.util.Scanner;
+import java.lang.Math; // Math 클래스
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int a = sc.nextInt(); int b = sc.nextInt();
+		
+		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a*b);
+		
+		/*
+		일반적으로 몫은 그냥 int a = 26/10;
+		나머지는 그냥 int b = 26%10; 의 형식대로 구했다.
+		
+		하지만, -26%10의 결과는 -6이라는 문제가 발생한다.
+		수학적으로 -26%10의 결과는 4가 나와야 한다.
+		나머지는 수학적으로 0 이상인 수가 답이기 때문이다.
+		
+		따라서, 이러한 문제를 해결하기 위해서는 Math 클래스인
+		import java.lang.Math; 를 선언하고
+		
+		Math.floorDiv(a, b) >>> 몫
+		Math.floorMod(a, b) >>> 나머지
+		로 구하는 게 안전하겠다.
+		
+		 */
+		System.out.println(Math.floorDiv(a, b));
+		System.out.println(Math.floorMod(a, b));
+		
+		/* 
+		 a, b가 모두 정수이기 때문에 자바에서는 단순히 a/b로 하면 정수 몫이 출력된다.
+		 따라서 수학적인 나눈 값을 구하기 위해서는 (double)a/b 이런 식으로 풀어야 한다.
+		 */
+		System.out.printf("%.2f", (double)a/b);
+	}
+
+}

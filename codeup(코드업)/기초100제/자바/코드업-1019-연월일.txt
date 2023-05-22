@@ -1,0 +1,23 @@
+// 코드업-1019-연월일
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		// .을 구분하기 위해서는 \\를 앞에 붙여줘야 함
+		String time[] = scanner.next().split("\\."); 
+		
+		// 숫자 형식의 문자열을 기본형 정수로 변환
+		int year = Integer.parseInt(time[0]);
+		int month = Integer.parseInt(time[1]);
+		int day = Integer.parseInt(time[2]);
+		
+		// 입력받은 연, 월, 일을 yyyy.mm.dd 형식으로 출력한다.
+		// (%02d를 사용하면 2칸을 사용해 출력하는데, 한 자리 수인 경우 앞에 0을 붙여 출력한다.)
+		System.out.printf("%04d.%02d.%02d", year, month, day);
+	}
+
+}

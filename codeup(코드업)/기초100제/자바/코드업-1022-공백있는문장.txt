@@ -1,0 +1,24 @@
+// 코드업-1022-공백있는문장
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		// 입력 문자열 > Programming is very fun!!
+		
+		// sc.next()로 입력 받고 출력 할 경우
+		// Programming만 출력
+		String str1 = sc.next();
+		
+		// sc.nextLine()로 입력 받고 출력 할 경우
+		// Programming is very fun!! 전체 출력
+		String str2 = sc.nextLine();
+		System.out.println(str2);
+		
+		
+	}
+
+}

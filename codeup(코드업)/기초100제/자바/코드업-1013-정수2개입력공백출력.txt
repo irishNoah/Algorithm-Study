@@ -1,0 +1,16 @@
+// 코드업-1013-정수2개입력공백출력
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		int a = scanner.nextInt(); int b = scanner.nextInt();
+		
+		// 자바는 파이썬과 달리 정수와 문자를 +로 더해서 연결할 수 있다.
+		System.out.println(a + " " + b); 
+	}
+
+}

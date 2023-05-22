@@ -1,0 +1,22 @@
+// 코드업-1037-10진수to아스키코드
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		int a = sc.nextInt();
+		
+		// 파이썬에서는 chr() 함수가 있지만, 자바에는 그런 것이 없다.
+		// 정수 입력 받은 이후에 문자열 변수에 Character.toString(정수변수명) 을 대입해야 한다.
+		String str = Character.toString(a);
+		
+		System.out.println(str);
+		
+		sc.close();
+		
+	}
+
+}

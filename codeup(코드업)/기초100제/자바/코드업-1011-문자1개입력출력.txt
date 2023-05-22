@@ -1,0 +1,21 @@
+// 코드업-1011-문자1개입력출력
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		/* 
+		자바에서 Scanner를 활용해서 char형을 입력받을 수 있으나
+		Scanner의 함수인 next 계열 함수에서는
+		char형으로 입력을 받아주는 함수가 없다.
+		따라서 scanner.next().charAt(0); 를 활용해서 입력을 받아야 한다.
+		*/
+		char c = scanner.next().charAt(0);
+		
+		System.out.println(c); 
+	}
+
+}
