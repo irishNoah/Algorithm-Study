@@ -1,0 +1,35 @@
+// 코드업-1093-1차원배열
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+	    Scanner sc = new Scanner(System.in);
+
+	    // 자바 배열 선언 방법
+	    int arr[] = new int[23];
+	    
+	    int n = sc.nextInt();
+	    int cnt = 0;
+
+	    while(true) {
+	    	cnt += 1;
+	    	
+	    	int call = sc.nextInt();
+	    	
+	    	arr[call-1] += 1;
+	    	
+	    	if (cnt == n) break;
+	    }
+	    
+	    // 자바 배열값만 출력하기 > 아쉽게도 파이썬마냥 배열명에 * 붙이는 방법은 없다.
+	    for(int i = 0; i < 23; i++) {
+	    	System.out.print(arr[i] + " ");
+	    }
+	    
+	    
+	  }
+
+}

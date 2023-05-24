@@ -1,0 +1,25 @@
+// 코드업-1064-자바3항연산활용3가지수중최소값비교
+
+import java.util.Scanner;
+import java.lang.Math;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int a = sc.nextInt(); int b = sc.nextInt(); int c = sc.nextInt();
+		
+		
+		/*
+		Java 3항 연산자 형식
+		
+		(조건문) ? 참일 때 값 : 거짓일 때 값
+		 */
+		
+		System.out.println(((a < b) ? a : b) < c ? (a<b?a:b):c);
+		
+	}
+
+}

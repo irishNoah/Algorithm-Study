@@ -4,12 +4,18 @@
 
 #####1 > 자바 Scanner를 통해 char형 입력받을 경우
 자바에서 Scanner를 활용해서 char형을 입력받을 수 있으나 Scanner의 함수인 next 계열 함수에서는
-char형으로 입력을 받아주는 함수가 없다. 
+char형으로 입력을 받아주는 함수가 따로 없다. 
 
 >>> 따라서 scanner.next().charAt(0); 를 활용해서 입력을 받아야 한다.
 
+#####1-1 >charat(정수 또는 인덱스)
+문자열로 구성된 변수의 특정 인덱스 값을 알고 싶을 경우
+charat(정수 또는 인덱스)를 활용해서 알아낼 수 있다. > 즉, for문에서 인덱스를 통해 알 수도 있는 것!
+
+>>> char hello = str.charAt(3);
+
 #####2 > float의 기본 셋팅
-기본적으로 float가 할당된 변수의 소수점 자리수가 2자리가 넘어가지 않는 이상
+기본적으로 float이 할당된 변수의 소수점 자리수가 2자리가 넘어가지 않는 이상
 float을 출력하면 기본적으로 소수점 둘째 자리까지 출력하게 된다.
 
 따라서, 원하는 자리수까지 출력하고 싶을 때는 Sring.format을 이용한다.
@@ -22,12 +28,12 @@ float을 출력하면 기본적으로 소수점 둘째 자리까지 출력하게
 >>> String time[] = scanner.next().split(":"); 
 >>> System.out.println(time[0]+":"+time[1]);
 
-#####4 > 숫자 형식의 문자열을 정수형으로 변환
+#####4 > 숫자 형식의 문자열을 정수형으로 변환하는 방법
 
->>> int year = Integer.parseInt(문자열 변수);
+>>> int year = Integer.parseInt(숫자 형식의 문자열 또는 문자열 변수);
 
-#####5 > %d 자릿수 채우기
-연월일 입력을 1998 8 3 으로 입력을 받았는데,
+#####5 > %d 자릿수(자리수) 채우기
+만약 연월일 입력을 1998 8 3 으로 입력을 받았는데,
 정수로 출력을 1998 08 03 과 같이 출력을 하라고 한다면?????
 
 - 해결법 > %02d를 사용하면 2칸을 사용해 출력하는데, 입력받은 수가 한 자리 수인 경우 앞에 0을 붙여 출력한다.
@@ -73,7 +79,7 @@ char cnv[] = word.toCharArray();
 
 #####12 자바에서의 몫과 나머지 구하기
 
-일반적으로 몫은 그냥 int a = 26/10;
+자바에서 일반적으로 몫은 그냥 int a = 26/10;
 나머지는 그냥 int b = 26%10; 의 형식대로 구했다.
 		
 하지만, -26%10의 결과는 -6이라는 문제가 발생한다.
@@ -83,7 +89,7 @@ char cnv[] = word.toCharArray();
 따라서, 이러한 문제를 해결하기 위해서는 Math 클래스인
 import java.lang.Math; 를 선언하고
 		
-Math.floorDiv(a, b) >>> 몫
+Math.floorDiv(a, b) >>> 몫 (단, a가 음수일 경우에는 이것보다는 그냥 a/b 로 구하는 게 안전)
 Math.floorMod(a, b) >>> 나머지
 로 구하는 게 안전하겠다.
 
@@ -96,20 +102,158 @@ a, b가 모두 정수일 경우 수학적으로 10 / 2는 5이지만, 10 / 4 = 2
 수학적인 답과 같이 출력을 하기 위해서는
 (double)a/b 와 같이 풀어야 한다.
 
+#####14 자바 3항 연산
+
+1) Java 3항 연산자 형식 > 변수가 2개일 때
+(조건문) ? 참일 때 값 : 거짓일 때 값
+		
+>>> System.out.println((a < b) ? b : a);
+
+2) Java 3항 연산자 형식 > 변수가 3개일 때
+>>> System.out.println(((a < b) ? a : b) < c ? (a<b?a:b):c);
+
+#####15 자바 Scanner가 아닌 BufferdReader와 BufferedWriter 활용하기
+
+자바의 Scanner는 입력 속도가 느리다. Scanner를 대신하기 위해 BufferdReader를 사용할 수 있다.
+cf. python에서 input() 대신 sys.stdin.readline()을 쓰는 방식과 비슷해 보인다.
+
+> BufferedReader를 사용하기 전 throws IOException{} 을 적용해주어야 한다
+> InputStreamReader() 에는 System.in, OutputstreamWriter() 에는 System.out 을 넣어야 한다
+> BufferedReader는 String으로 입력값을 받게 되므로 형변환을 반드시 해주어야 한다
+> String[] s : String 리스트 s를 만들어 br.readLine()값을 입력한다. split()을 통해 분리 기준을 설정할 수 있다
+> BufferedReader를 통해 만든 변수의 출력은 bw.write()를 사용한다. 출력에 대해서도 String으로 형 변환을 해주어야 한다
+> bw.flush() 를 통해 버퍼를 초기화해야 한다 (안하면 출력이 진행되지 않았음)
+
+@ 사용 코드
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		
+		String[] s = br.readLine().split(" "); int count = 0;
+		
+		for (int i = 0; i < Integer.valueOf(s[0]); i++) {
+			for (int j = 0; j < Integer.valueOf(s[1]); j++) {
+				for (int k = 0; k < Integer.valueOf(s[2]); k++) {
+					bw.write(i+" "+j+" "+k+"\n");
+					count++;
+				}
+			}
+		}
+		
+		bw.write(String.valueOf(count));
+		bw.flush();
+		
+	}
+
+}
+
+#####16 최대공약수(GCD) > BigInteger 자료형을 활용한 gcd 메서드 사용
+
+BigInteger 에는 최대공약수를 구하는 gcd 함수가 있다.
+이 함수를 사용하면 아주 쉽게 구할 수 있다.
+
+@ 사용 코드
+import java.util.Scanner;
+import java.math.BigInteger; // 선언 필요
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		BigInteger a = sc.nextBigInteger(); BigInteger b = sc.nextBigInteger();
+		
+		BigInteger gcdAB = a.gcd(b); // 메서드 사용
+		
+		System.out.println(gcdAB);
+		
+	}
+}
+
+#####16 재귀를 활용한 최대공약수(GCD, gcd)와 최소공배수(LCM, lcm) 구하기
+
+@ 사용 코드
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+	    Scanner sc = new Scanner(System.in);
+	    long a = sc.nextLong(); long b = sc.nextLong(); long c = sc.nextLong();
+
+	    // 세 숫자의 최소공배수 구하기
+	    long result = lcm(a, lcm(b, c));
+	    System.out.println(result); 
+
+	  }
+
+	  // 최소 공배수(LCM, lcm) 계산 메서드
+	  // 최소공배수는 엄청나게 큰 숫자가 나올 수도 있기에
+	  // long형으로 다루어야 합니다.
+	  public static long lcm(long a, long b) {
+	    int gcd_value = gcd((int)a, (int)b);
+
+	    if (gcd_value == 0) return 0; // 인수가 둘다 0일 때의 에러 처리
+
+	    return Math.abs( (a * b) / gcd_value );
+	  }
 
 
+	  // 최대 공약수(GCD, gcd) 계산 함수; 최소 공배수 계산에 필요함
+	  // 최대 공약수는 그리 큰 숫자가 나오지 않기에 int형으로 해도 됨
+	  public static int gcd(int a, int b) {
+	    while (b != 0) {
+	      int temp = a % b;
+	      a = b;
+	      b = temp;
+	    }
+	    return Math.abs(a);
+	  }
+}
 
+#####17 자바 1차원 배열 선언
 
+자바 배열 선언 방법
+>>> int arr[] = new int[23];
 
+자바는 아쉽게도 파이썬 마냥 배열명에 * 붙이는 방법은 없다.
+>>> 그냥 for문으로 출력해야 한다.
 
+#####18 토큰나이저 StringTokenizer
 
+- StringTokenizer > 문자열을 토큰화한다.
+- java.util.StringTokenizer 임포트 필요
 
+1) StringTokenizer 생성방법
+1. StringTokenizer st = new StringTokenizer(문자열); >>> 띄어쓰기 기준으로 문자열 분리
+2. StringTokenizer st = new StringTokenizer(문자열, 구분자); >>> 구분자 기준으로 문자열 분리
+3. StringTokenizer st = new StringTokenizer(문자열, 구분자, true 또는 false); 
+>>> 구분자를 기준으로 문자열을 분리할 때, 구분자도 토큰으로 넣을지(true) / 구분자는 분리된 문자열 토큰에 포함 안시킬지(false)
 
+2) StringTokenizer 대표 메서드
+1. hasMoreTokens [리턴값 : boolean] > 역할 : 남아있는 토큰이 있으면 true를 리턴, 더 이상 토큰이 없으면 false 리컨
+2. nextToken() [리턴값 : String] > 역할 : 객체에서 다음 토큰을 반환
+3. countTokens() [리턴값: int] > 역할 : 총 토큰의 개수를 리턴
 
-
-
-
-
+3) StringTokenizer와 split의 차이
+- 둘 다 문자열 파싱하는데 사용할 수 있다.
+- StringTokenizer는 java.util에 포함되어 있는 클래스 / split은 String 클래스에 속해있는 메소드이다.
+- StringTokenizer는 문자 또는 문자열로 문자열을 구분한다면 / split은 정규표현식으로 구분한다.
+- StringTokenizer는 빈 문자열을 토큰으로 인식하지 않지만  / split은 빈 문자열을 토큰으로 인식한다.
+- StringTokenizer는 겨로가값이 문자열이라면 split은 결과 값이 문자열 배열이다.
+따라서 StringTokenizer를 이용할 경우, 전체 토큰을 보고 싶다면 반복문을 이용해서 하나하나 뽑을 수밖에 없다.
+- 배열을 담아 반환하는 split는 데이터를 바로바로 잘라서 반환해주는 StringTokenizer보다 성능이 약간 뒤쳐질 수 있다.
 
 
 
