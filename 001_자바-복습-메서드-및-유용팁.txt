@@ -1,10 +1,8 @@
 @ 자바-복습-메서드-및-유용팁
 
-%%%%%%%%%% 코드업
-
 #####1 > 자바 Scanner를 통해 char형 입력받을 경우
-자바에서 Scanner를 활용해서 char형을 입력받을 수 있으나 Scanner의 함수인 next 계열 함수에서는
-char형으로 입력을 받아주는 함수가 따로 없다. 
+자바에서 Scanner를 활용해서 char형을 입력받을 수 있으나 
+Scanner의 함수인 next 계열 함수에서는 char형으로 입력을 받아주는 함수가 따로 없다. 
 
 >>> 따라서 scanner.next().charAt(0); 를 활용해서 입력을 받아야 한다.
 
@@ -242,7 +240,7 @@ public class Main {
 >>> 구분자를 기준으로 문자열을 분리할 때, 구분자도 토큰으로 넣을지(true) / 구분자는 분리된 문자열 토큰에 포함 안시킬지(false)
 
 2) StringTokenizer 대표 메서드
-1. hasMoreTokens [리턴값 : boolean] > 역할 : 남아있는 토큰이 있으면 true를 리턴, 더 이상 토큰이 없으면 false 리컨
+1. hasMoreTokens [리턴값 : boolean] > 역할 : 남아있는 토큰이 있으면 true를 리턴, 더 이상 토큰이 없으면 false 리턴
 2. nextToken() [리턴값 : String] > 역할 : 객체에서 다음 토큰을 반환
 3. countTokens() [리턴값: int] > 역할 : 총 토큰의 개수를 리턴
 
@@ -251,7 +249,7 @@ public class Main {
 - StringTokenizer는 java.util에 포함되어 있는 클래스 / split은 String 클래스에 속해있는 메소드이다.
 - StringTokenizer는 문자 또는 문자열로 문자열을 구분한다면 / split은 정규표현식으로 구분한다.
 - StringTokenizer는 빈 문자열을 토큰으로 인식하지 않지만  / split은 빈 문자열을 토큰으로 인식한다.
-- StringTokenizer는 겨로가값이 문자열이라면 split은 결과 값이 문자열 배열이다.
+- StringTokenizer는 결과 값이 문자열이라면 split은 결과 값이 문자열 배열이다.
 따라서 StringTokenizer를 이용할 경우, 전체 토큰을 보고 싶다면 반복문을 이용해서 하나하나 뽑을 수밖에 없다.
 - 배열을 담아 반환하는 split는 데이터를 바로바로 잘라서 반환해주는 StringTokenizer보다 성능이 약간 뒤쳐질 수 있다.
 
