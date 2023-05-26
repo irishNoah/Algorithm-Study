@@ -1,0 +1,7 @@
+@ 추가학습필요
+
+* scanner와 bufferredeader 차이
+* 배열과 List의 차이
+* Arrays와 ArrayList의 차이
+* for문에서 파이썬 마냥 바로 Array에 접근해서 출력하기
+* Collections
