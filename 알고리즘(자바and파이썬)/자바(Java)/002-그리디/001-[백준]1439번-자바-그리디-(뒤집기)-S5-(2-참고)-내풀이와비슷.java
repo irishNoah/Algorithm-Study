@@ -1,4 +1,4 @@
-// [백준]1193번-자바-그리디-(뒤집기)-S5-(2-참고)-내풀이와비슷
+// [백준]1439번-자바-그리디-(뒤집기)-S5-(2-참고)-내풀이와비슷
 // https://github.com/irishNoah/Algorithm-Study
 // https://www.acmicpc.net/problem/1439
 

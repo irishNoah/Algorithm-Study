@@ -1,7 +1,12 @@
 @ 추가학습필요
 
+# 챗 지피티 적극 활용할 것!!!!!!
+
 * scanner와 bufferredeader 차이
 * 배열과 List의 차이
 * Arrays와 ArrayList의 차이
 * for문에서 파이썬 마냥 바로 Array에 접근해서 출력하기
 * Collections
+* LinkedList
+* stringTokenizer
+* 자바에서 최소공배수 최대공약수 구하기
