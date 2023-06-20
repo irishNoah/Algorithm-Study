@@ -1,4 +1,4 @@
-# [백준]2852-구현-(NBA농구)-S3-(2-참고-성공).py
+2. # [백준]2852-구현-(NBA농구)-S3-(2-참고-성공).py
 # https://github.com/irishNoah/Algorithm-Study
 # https://www.acmicpc.net/problem/2852
 
