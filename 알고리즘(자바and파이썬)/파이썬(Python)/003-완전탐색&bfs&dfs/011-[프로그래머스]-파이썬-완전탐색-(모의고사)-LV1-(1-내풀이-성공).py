@@ -5,59 +5,55 @@
 '''
 *** 참고 URL
 
-*** 시간 : ?초 (기본 1초) / 메모리 : ?MB (기본 128MB)
 
-*** 조건(제한사항)
->>> 시험은 최대 10,000 문제로 구성되어있습니다.
->>> 문제의 정답은 1, 2, 3, 4, 5중 하나입니다.
->>> 가장 높은 점수를 받은 사람이 여럿일 경우, return하는 값을 오름차순 정렬해주세요.
+*** 시간 : 2초 (기본 1초) / 메모리 : 128MB (기본 128MB)
 
->>> 1번 수포자 : 1, 2, 3, 4, 5
->>> 2번 수포자 : 2, 1, 2, 3, 2, 4, 2, 5
->>> 3번 수포자 : 3, 3, 1, 1, 2, 2, 4, 4, 5, 5
+*** 조건
 
-*** 설계 [총 15분 소요] / 총 풀이 시간[총 40분 소요]
-> 수포자 1,2,3이 찍는 번호 목록은 정해져 있는 상황
-> 단, answers의 길이가 얼마나 될 지 모른다.
-> 따라서, 매칭을 시킬려면 answers[i]일 때 각 수포자1,2,3[i % len(수포자1,2,3)] 을 비교해서
-    > 맞으면 정답값 1 증가
-
-
-*** 정확성 테스트
-- 100점
+*** 설계 [18분 소요] / 총 풀이 시간[총 25분 소요]
+>> 수포자1, 2, 3을 > pA, pB, pC로 지정
+>> 주어진 answer와 pA(길이 5), pB(길이 8), pC(길이 10)가 얼마나 일치하는가를 확인하려면?
+    - 예를 들어 answer과 pA로 본다면?
+        - answer[i] == pA[i % 5] 가 참이면 cntA의 값을 1 더해주면 됨
+            - pB와 pC도 이와 동일한 원리!!!
+>> cntA, cntB, cntC의 max값 체크
+- 예제 2처럼, A나 B나 C의 값이 모두 동일하고, 따라서 최대값이 같은 상황
+- 그렇기 때문에, 우선, cntA, cntB, cntC에서 max 값을 구하고
+max값이 cntA, cntB, cntC와 일치하면 [1,2,3] 중에서 어팬드
+- 이후 오름차순 정렬 후 리턴
 '''
 # #############################################################
+
+import sys
 
 def solution(answers):
     answer = []
 
-    person1 = [1, 2, 3, 4, 5]
-    person2 = [2, 1, 2, 3, 2, 4, 2, 5]
-    person3 = [3, 3, 1, 1, 2, 2, 4, 4, 5, 5]
+    pA = [1,2,3,4,5] # 길이 5
+    pB = [2,1,2,3,2,4,2,5] # 길이 8
+    pC = [3,3,1,1,2,2,4,4,5,5] # 길이 10
 
-    cnt1 = 0; cnt2 = 0; cnt3 =0
+    cntA = 0; cntB = 0; cntC = 0
     for i in range(len(answers)):
-        if person1[i % len(person1)] == answers[i]:
-            cnt1 += 1
-        if person2[i % len(person2)] == answers[i]:
-            cnt2 += 1
-        if person3[i % len(person3)] == answers[i]:
-            cnt3 += 1
+        if answers[i] == pA[i%5]:
+            cntA += 1
+        if answers[i] == pB[i%8]:
+            cntB += 1
+        if answers[i] == pC[i%10]:
+            cntC += 1
 
-    print(cnt1, cnt2, cnt3)
-    check = max(cnt1, cnt2, cnt3)
-    print(check)
-
-    if check == cnt1:
+    maxVal = max(cntA, cntB, cntC)
+    if maxVal == cntA:
         answer.append(1)
-    if check == cnt2:
+    if maxVal == cntB:
         answer.append(2)
-    if check == cnt3:
+    if maxVal == cntC:
         answer.append(3)
 
     return answer
 
+
 # =========================================================
 
 answers = [1,3,2,4,2]
-print(solution(answers))
+print(solution(answers)) # [1,2,3]

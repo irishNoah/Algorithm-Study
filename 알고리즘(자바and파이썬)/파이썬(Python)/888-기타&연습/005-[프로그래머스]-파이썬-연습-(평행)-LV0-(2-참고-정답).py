@@ -1,6 +1,6 @@
 # [프로그래머스]-파이썬-연습-(평행)-LV0-(2-참고-정답).py
 # https://github.com/irishNoah/Algorithm-Study
-# https://school.programmers.co.kr/learn/courses/30/lessons/120814
+# https://school.programmers.co.kr/learn/courses/30/lessons/120875
 
 '''
 *** 제한 > 시간 : ?초 (기본 1초) / 메모리 : ?MB (기본 128MB)
