@@ -1,5 +1,7 @@
 # [프로그래머스]-파이썬-내일배움코스-(마법의-엘리베이터)-(1-내풀이-실패)-30점.py
 # https://github.com/irishNoah/Algorithm-Study
+# https://school.programmers.co.kr/learn/courses/30/lessons/148653
+
 '''
 *** 제한 > 시간 : ?초 (기본 1초) / 메모리 : ?MB (기본 128MB)
 
