@@ -1,5 +1,5 @@
 /*
-006-[프로그래머스]-GROUPBY-복습필요-(진료과별-총-예약-횟수-출력하기)-LV2-(2-참고).sql
+006-[프로그래머스]-GROUPBY-복습필요-(진료과별-총-예약-횟수-출력하기)-LV2-(1-참고).sql
 
 ### 주소
 > https://school.programmers.co.kr/learn/courses/30/lessons/132202
